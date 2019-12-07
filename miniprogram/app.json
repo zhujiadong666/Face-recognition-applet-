@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/AI/AI"
+ 
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于获取当地天气信息"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F0F8FF",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "AI软件工程",
+    "navigationBarTextStyle": "black"
+  }
+}

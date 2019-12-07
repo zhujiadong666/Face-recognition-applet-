@@ -1,0 +1,56 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+/**app.wxss**/
+text{
+    font-family: MicroSoft Yahei;
+    font-size: 24rpx;
+    color: #666;
+}
+
+input{
+    font-family: MicroSoft YaHei;
+}
+.yulin {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 500rpx;
+  width: 350rpx;
+}
+
+.container1 {
+  display: flex; /**指定flex 布局*/
+  flex-direction: row; /**布局内item 方向*/
+  flex-wrap: wrap; /**不够了就换行*/
+  justify-content: space-between; /**主轴两边对其*/
+
+ 
+}
+
+.container1 view {
+  display: flex; /**指定flex 布局*/
+  width: 350rpx; /**宽度*/
+  height: 500rpx; /**高度*/
+  justify-content: center; /**主轴居中*/
+  align-items: center; /**交叉轴居中*/
+  border: 1pt #aaa solid; /**显示边框*/
+
+
+}

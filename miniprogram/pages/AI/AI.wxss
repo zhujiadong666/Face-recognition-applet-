@@ -1,0 +1,640 @@
+/* 颜色不用调都是 #af1e24*/
+.db{
+  width: 100%;
+  height: 50px;
+}
+/* 学生证总大小 */
+.xxz{
+  width: 100%;
+  height: 280px;
+  background-color: #af1e24;
+}
+.yh{
+  display: flex;
+}
+/* 标语图片大小 */
+.dx{
+
+  width: 100%;
+  height: 90px;
+}
+.dx1{
+  float: right;
+  width: 200px;
+  height: 100px;
+}
+.k1{
+  width: 60%;
+  height: 100px;
+  background-color: #af1e24;
+}
+/* 姓名图片大小 */
+.dxx{
+width: 23px;
+height: 20px;
+}
+/* 姓名后面空隙 */
+.tpkx{
+  width: 4px;
+}
+.xkb{
+  width: 60%;
+  height: 5px;
+}
+
+.kb{
+  width: 5%;
+  height: 10px;
+}
+/* 字体 */
+.wz{
+  font-size: 17px;
+
+  color: #ffffff;
+}
+.wz1{
+  font-size: 15px;
+
+  color: #ffffff;
+}
+.wzz{
+  text-align:center;
+  height: 30px;
+}
+.xxi{
+  width: 60%;
+  height: 220px;
+}
+/* 信息的顶部空白 */
+.dbkb{
+  width: 60%;
+  height: 40px;
+}
+/* 头像大小 */
+.tx{
+  width: 120px;
+  height: 130px;
+border: 2px dashed rgb(255, 255, 255) ;
+display: flex;
+margin: 55rpx 50rpx 55rpx 50rpx;
+flex-flow: column nowrap;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+/* 头像 */
+.txx{
+  width: 42%;
+  height: 180px;
+  display: flex;
+   justify-content: center;        
+ align-items:center;
+}
+/* 竖杠 */
+.sg{
+  width: 2%;
+  height: 40px;
+  background-color:  #af1e24;
+}
+.sg1{
+  width: 3%;
+  height: 40px;
+  background-color:  #af1e24;
+}
+.yb{
+  width: 50%;
+}
+.bq{
+  font-size: 25px;
+  color:#140a0b;
+  font-display: center;
+  font-family: 方正徐静蕾体;
+  
+}
+.yhh{
+ display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.hg{
+  width: 10%;
+  height: 10px;
+  background-color: #af1e24;
+  
+}
+.cutoff{
+  width: 100%;
+  height: 10px;
+  background-color: #af1e24;
+}
+.hgs{
+
+  width: 30%;
+  height: 40px;
+  background-color: #af1e24;
+  color: #FFFFFF;
+}
+.hg0{
+  width: 100%;
+  height: 30px;
+  background-color: #140a0b;
+  
+}
+.hg1{
+  left: 70px;
+  width: 100%;
+  height: 40px;
+  background-color: #af1e24;
+  color: #FFFFFF;
+}
+
+.hg2{
+  left: 120px;
+  width: 100%;
+  height: 40px;
+  background-color: #af1e24;
+  color: #FFFFFF;
+}
+.hg3{
+  left: 500px;
+  width: 100%;
+  height: 40px;
+  background-color: #af1e24;
+  color: #FFFFFF;
+}
+.jhg{
+   width: 6%;
+  height: 5px;
+}
+.hs{
+  width: 70px;
+  height: 34px;
+  background-color: #af1e24;
+  color: #ffffff;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+border-bottom-left-radius: 5px;
+
+}
+
+.jhs{
+  width: 100px;
+  height: 30px;
+}
+.bs{
+  background-color: #ffffff;
+ border: 2px  solid #af1e24;
+ height: 31px;
+  border-bottom-right-radius: 7px;
+  font-weight: bold;
+ border-top-right-radius: 7px;
+ font-family: 华文行楷;
+ font-size: 21px;
+}
+.text{
+  width: 100%;
+  height: 10px;
+  background-color: #00ff00;
+}
+.zhg{
+   display: inline;
+  float: right;
+  width: 10%;
+  height: 5px;
+  background-color: #af1e24;
+  
+}
+.zyb{
+  width: 50%;
+  display: flow;
+justify-content:flex-end;
+flex-direction: row;
+
+}
+.zhs{
+  width: 70px;
+  height: 40px;
+  background-color: #af1e24;
+  color: #ffffff;
+border-bottom-right-radius: 5px;
+   display: inline;
+  float: right;
+  display: flex;
+   align-content: center;
+  justify-content: center;
+
+}
+.zbs{
+  background-color: #ffffff;
+ border: 1px  solid #af1e24;
+ height: 36px;
+  border-bottom-left-radius: 5px;
+font-weight: bold;
+ border-top-left-radius: 5px;
+  display: inline;
+  float: right;
+   font-family: 华文行楷;
+    font-size: 25px;
+}
+.zbs1{
+  background-color: #eef7f4;
+  border: 3px  solid #af1e24;
+  height: 37px;
+    color: rgb(19, 1, 1);
+    width: 200px;
+
+}
+.zbs2{
+
+  width: 30%;
+  height: 40px;
+  background-color: #af1e24;
+  color: #FFFFFF;
+
+}
+/* 底部图片 */
+.dbtp{
+  width:100%;
+  height:150px;
+}
+
+.cutoffwhite
+{
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 5%;
+}
+
+.image_viwe_size{
+  display:flex;
+  justify-content: center;
+  background: #FFFFFF;
+}
+.image_size{
+  width: 300px;
+}
+.button_viwe_size{
+  display:flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button_size{
+  height:50px;
+  width: 200px;
+}
+.text_viwe_size{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text_size{
+  display:flex;
+  color: #444444;
+}
+.progress_view_size{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.container1{
+    height: 100%;
+    width:100%;
+    background-color:beige;
+    display:flex;
+}
+.text_size{
+  
+
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+
+}
+
+/* @import "../../libs/wxss/weui.wxss";
+.image_viwe_size{
+  display:flex;
+  justify-content: center;
+  background: #FFFFFF;
+}
+.image_size{
+  width: 300px;
+}
+.button_viwe_size{
+  display:flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.button_size{
+  height:50px;
+  width: 200px;
+}
+.text_viwe_size{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.text_size{
+  display:flex;
+  color: #444444;
+}
+.progress_view_size{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+} */
+/*button*/  
+
+.btn {  
+
+  width: 80%;  
+
+  padding: 20rpx 0;  
+
+  border-radius: 10rpx;  
+
+  text-align: center;  
+
+  margin: 40rpx 10%;  
+
+  background: #000;  
+
+  color: #fff;  
+
+}  
+
+  
+
+/*mask*/  
+
+.drawer_screen {  
+
+  width: 100%;  
+
+  height: 100%;  
+
+  position: fixed;  
+
+  top: 0;  
+
+  left: 0;  
+
+  z-index: 1000;  
+
+  background: #000;  
+
+  opacity: 0.5;  
+
+  overflow: hidden;  
+
+}  
+
+  
+
+/*content*/  
+
+.drawer_box {  
+
+  width: 650rpx;  
+
+  overflow: hidden;  
+
+  position: fixed;  
+
+  top: 50%;  
+
+  left: 0;  
+
+  z-index: 1001;  
+
+  background: #FAFAFA;  
+
+  margin: -150px 50rpx 0 50rpx;  
+
+  border-radius: 3px;  
+
+}  
+
+  
+
+.drawer_title{  
+
+  padding:15px;  
+
+  font: 20px "microsoft yahei";  
+
+  text-align: center;  
+
+}  
+
+.drawer_content {  
+
+  height: 100px;  
+
+  overflow-y: scroll; /*超出父盒子高度可滚动*/  
+
+}  
+
+  
+
+.btn_ok{  
+
+  padding: 10px;  
+
+  font: 20px "microsoft yahei";  
+
+  text-align: center;  
+
+  border-top: 1px solid #E8E8EA;  
+
+  color: #3CC51F;  
+
+}  
+
+  
+
+.top{  
+
+    padding-top:8px;  
+
+}  
+
+.bottom {  
+
+    padding-bottom:8px;  
+
+}  
+
+.title {  
+
+    height: 30px;  
+
+    line-height: 30px;  
+
+    width: 160rpx;  
+
+    text-align: center;  
+
+    display: inline-block;  
+
+    font: 300 28rpx/30px "microsoft yahei";  
+
+
+}  
+
+  
+
+.input_base {  
+
+    border: 2rpx solid #ccc;  
+
+    padding-left: 10rpx;  
+
+    margin-right: 50rpx;  
+
+}  
+
+.input_h30{  
+
+    height: 30px;  
+
+    line-height: 30px;  
+
+}  
+
+.input_h60{  
+
+    height: 60px;  
+
+}  
+
+.input_view{  
+
+    font: 12px "microsoft yahei";  
+
+    background: #fff;  
+
+    color:#000;  
+
+    line-height: 30px;  
+
+}  
+
+  
+
+input {  
+
+    font: 12px "microsoft yahei";  
+
+    background: #fff;  
+
+    color:#000 ;  
+
+}  
+
+radio{  
+
+    margin-right: 20px;  
+
+}  
+
+.grid { display: -webkit-box; display: box; }  
+
+.col-0 {-webkit-box-flex:0;box-flex:0;}  
+
+.col-1 {-webkit-box-flex:1;box-flex:1;}  
+
+.fl { float: left;}  
+
+.fr { float: right;}
+
+.outhor>text{
+  text-align: center;
+  display: block;
+  /* margin-top: 3%; */
+  font-family: fantasy;
+  text-shadow: 0em 0em 0.5em rgba(43, 42, 42, 0.3);
+}
+.kbbb{
+  width: 200px;
+  height: 30px;
+}
+.kbb{
+  width: 10px;
+  height: 15px;
+}.zbs2{
+  background-color: #af1e24;
+ /* border: 1px  solid #af1e24; */
+  color: rgb(15, 10, 10);
+  width: 200px;
+}
+.outhorWorld1{
+  margin-top: 5%
+}
+.outhorWorld2{
+  font-size: 0.5rem;
+  color: rgb(80, 79, 79)
+}
+
+
+
+ 
+
+
+.modalDlg{
+
+    width: 500rpx;
+
+    height: 500rpx;
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 0;
+
+    z-index: 9999;
+
+    margin-left: 60px;
+    margin-top: -150px;
+  
+
+    background-color: rgba(247, 214, 213, 0.678);
+
+    border-radius: 36rpx;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.mask{
+
+    width: 100%;
+
+    height: 100%;
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    background: #000;
+
+    z-index: 9000;
+
+    opacity: 0.7;
+
+}

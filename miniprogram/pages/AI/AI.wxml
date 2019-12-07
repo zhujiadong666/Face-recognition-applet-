@@ -1,0 +1,249 @@
+
+
+
+<!-- 顶部空白 -->
+<!-- <view class='db'></view> -->
+<!-- 标语图片 -->
+<!-- <image class='dx1' src='cloud://sanqi-e90058.7361-sanqi-e90058/AI/校徽.png'></image> -->
+
+<view class='xxz'>
+<image class='dx' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk/AI人脸识别/yr.png'></image>
+<view class='yh'>
+
+
+<!-- 信息 -->
+<view class='xxi'>
+<!-- 顶部空白 -->
+<view class='dbkb'></view>
+<!-- 姓名 -->
+<view class='yh'>
+<view class='kb'></view>
+<image class='dxx' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk/AI人脸识别/姓名.png'></image>
+<view class='tpkx'></view>
+<view class='wz'>姓名：</view>
+<view class='wz'>{{name}}</view>
+</view>
+
+
+<!-- 行之间的小空隙 -->
+<view class='xkb'></view>
+
+<!-- 性别-->
+<view class='yh'>
+<view class='kb'></view>
+<image class='dxx' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk/AI人脸识别/性别.png'></image>
+<view class='tpkx'></view>
+<view class='wz'>性别：</view>
+<view class='wz'>{{gender}}</view>
+</view>
+
+
+<!-- 行之间的小空隙 -->
+<view class='xkb'></view>
+
+<!-- 专业-->
+<view class='yh'>
+<view class='kb'></view>
+<image class='dxx' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk/AI人脸识别/专业.png'></image>
+<view class='tpkx'></view>
+<view class='wz'>专业：{{major}}</view>
+</view>
+
+<!-- 行之间的小空隙 -->
+<view class='xkb'></view>
+
+<!-- 入学时间-->
+<view class='yh'>
+<view class='kb'></view>
+<image class='dxx' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk/AI人脸识别/入学时间.png'></image>
+<view class='tpkx'></view>
+
+<view class='wz1'>入学时间：2019年9月1日</view>
+</view>
+</view>
+
+
+<!-- 头像 -->
+<!-- 头像要是想改   就改wxss中的txx和tx -->
+<view class='txx'> 
+<image src="{{image_src}}" class='tx'></image>
+</view>
+</view>
+</view>
+
+<view class='kbb'></view>
+
+  <view style="display: flex;flex-direction: row;justify-content: space-around;">
+    <button  class='hgs' form-type='submit' bindtap="submit">上传名字</button>
+    <button class="hgs"  bindtap="UploadImage">上传照片</button>
+     
+  </view>
+    <view class='cutoffwhite'><input></input> </view>
+  <view class='cutoff'></view>
+
+<!-- 下半部分 -->
+
+<!-- 1 -->
+<view class='yh'> 
+<!-- 一半的空白 -->
+<view class='yb'></view>
+
+<!-- 竖杠 -->
+ <view class='sg'></view>
+</view>
+<!-- 2 -->
+
+<view class='yh'> 
+<!-- 一半的空白 -->
+<view class='yb'></view>
+<!-- 竖杠 -->
+ <view class='sg'></view>
+ <!-- 横杠 -->
+  <view class='hg'></view>
+  <!-- 红色背景 -->
+  <view class='hs'>
+  <!-- 字体 -->
+  <text class='bq'>年龄</text>
+  </view>
+  <!-- 结果 -->
+  <text class='bs'>{{age}}</text>
+ </view>
+
+<!-- 3 -->
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'>
+<view class='zhg'></view>
+<view class='zhs'>
+  <text class='bq'>颜值</text>
+  </view>
+  <!-- 结果 -->
+  <text class='zbs'>{{beauty}}</text>
+
+</view>
+ <view class='sg'></view>
+ 
+</view>
+
+<!-- 4 -->
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'></view>
+ <view class='sg'></view>
+</view>
+<!-- 5-->
+
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'></view>
+ <view class='sg'></view>
+  <view class='hg'></view>
+  <view class='hs'>
+  <text class='bq'>表情</text>
+  </view>
+  <!-- 结果 -->
+  <text class='bs'>{{Expression}}</text>
+ </view>
+
+<!-- 6 -->
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'>
+<view class='zhg'></view>
+<view class='zhs'>
+  <text class='bq'>发色</text>
+  </view>
+  <!-- 结果 -->
+  <text class='zbs'>{{hair_color}}</text>
+</view>
+
+ <view class='sg'></view>
+
+
+</view>
+
+
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'></view>
+ <view class='sg'></view>
+</view>
+
+
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'></view>
+ <view class='sg'></view>
+  <view class='hg'></view>
+  <view class='hs'>
+  <text class='bq'>眼镜</text>
+  </view>
+  <!-- 结果 -->
+  <text class='bs'>{{glasses}}</text>
+ </view>
+
+
+
+<!-- 6 -->
+<view class='yh'> 
+<!-- 竖杠 -->
+<view class='yb'>
+<view class='zhg'></view>
+<view class='zhs'>
+  <text class='bq'>发型</text>
+  </view>
+  <!-- 结果 -->
+  <text class='zbs'>{{hair_length}}</text>
+</view>
+
+ <view class='sg'></view>
+
+
+</view>
+
+
+
+
+<!-- 底部图片 -->
+<image class='dbtp' src='cloud://zhujiadong-e9urk.7a68-zhujiadong-e9urk-1258940313/AI人脸识别/底部 扣线图1.png'></image>
+
+
+
+<!-- <view class="container1">
+<view class='button_viwe_size'>
+  <button class="hg1"  bindtap="UploadImage">重新上传</button>
+</view>
+
+<view class='button_viwe_size'>
+<button class="hg2" open-type="share" style="display:{{button_viwe_display}}">分享好友</button>
+</view>
+
+</view> -->
+
+
+
+<view class='progress_view_size'>
+  <progress percent="{{progress}}" show-info />
+  <text class="text_size">上传进度</text>
+</view>
+
+<view class="outhor">
+<text class="outhorWorld1">Welcome to PHU</text>
+<text class="outhorWorld2">Powered by ZhuJD</text>
+</view>
+
+
+
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modalDlg" wx:if="{{showModal}}">
+ <form  bindsubmit='searchBox'>
+      <input  class='zbs1'placeholder="请输入你的名字" type='text' name='username'></input>
+      <view class='kb'></view>
+      <input  class='zbs1'placeholder="请输入你的专业" type='text' name='username1'></input>
+      <view class='kbbb'></view>
+      <button  class='zbs2' form-type='submit' bindtap="go">确定上传</button>
+  </form>
+  </view>
+<view class='kb'></view>
+<view class='kb'></view>
+<view class='kb'></view>
